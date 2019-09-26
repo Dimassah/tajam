@@ -1,0 +1,36 @@
+ody {
+  font-family: 'Roboto', sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  max-width: 952px;
+  margin: 0 auto; }
+
+.header .nav {
+  display: flex;
+  justify-content: space-between; }
+  .header .nav__logo {
+    display: flex; }
+    .header .nav__logo h3 {
+      width: 73px;
+      height: 29px;
+      background-image: -webkit-linear-gradient(left, #00e0d0 0%, #4aa3cc 100%);
+      background-image: -o-linear-gradient(left, #00e0d0 0%, #4aa3cc 100%);
+      background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+      background-clip: text;
+      color: #ffffff;
+      font-family: "Roboto - Thin";
+      font-size: 30px;
+      font-weight: 400; }
+  .header .nav__menu {
+    display: flex;
+    list-style: none; }
+    .header .nav__menu__link {
+      color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
