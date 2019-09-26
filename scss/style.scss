@@ -445,7 +445,23 @@ body {
             }
         }
     }
+
+.footer {
+  background-color: #413d4b;
+  margin-top: 100px; 
+    &__text  {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #06dfd0;
+        padding: 10px 0px;
+        font-family: "Playfair Display";
+        font-weight: 700;
+        font-style: 40px;
+    }
 }
+
+
 
 
 

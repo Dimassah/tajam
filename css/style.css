@@ -250,7 +250,7 @@ body {
     position: relative; }
     .section__jane .jane__title {
       text-align: center;
-      padding: 100px 0px 35px 0px;
+      padding: 200px 0px 35px 0px;
       opacity: 0.9;
       color: #fff;
       font-family: "Playfair Display";
@@ -271,12 +271,13 @@ body {
       text-align: center;
       color: #fff;
       font-weight: 300;
-      padding: 20px 0px;
+      padding: 100px 0px 20px 0px;
       font-size: 13px;
       opasity: .7; }
       .section__jane .jane__name h4 {
         font-weight: 900;
         font-size: 14px;
+        padding: 20px 0px 10px 0px;
         opasity: 1; }
 .section__form {
   display: flex;
@@ -335,5 +336,21 @@ body {
       color: #413d4b;
       letter-spacing: 1.1px;
       padding: 70px 0px 10px 0px; }
+.footer {
+  background-color: #413d4b;
+  margin-top: 100px; 
+  
+}
+  .footer__text  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #06dfd0;
+    padding: 10px 0px;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-style: 40px;
 
+    
+  }
 /*# sourceMappingURL=style.css.map */
